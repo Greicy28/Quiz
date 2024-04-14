@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formúlario/Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="post">
+      <h1>Quiz de Perguntas</h1>
+      <label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nome" />
+      <label for="idade">Idade: </label>
+      <input type="number" id="idade" name="idade" />
+      <p>Qual seu animal favorito?</p>
+      <input type="radio" id="cachorro" name="animal" value="Cachorro" />
+      <label for="cachorro">Cachorro</label><br />
+      <input type="radio" id="gato" name="animal" value="Gato" />
+      <label for="gato">Gato</label><br />
+      <input type="radio" id="Leão" name="animal" value="Leão" />
+      <label for="passaro">Leão</label>
+      <p>Qual rede social você mais gosta?(Selecione todas que se aplicam):</p>
+      <input
+        type="checkbox"
+        id="facebook"
+        name="rede social"
+        value="Facebook"
+      />
+      <label for="facebook">Facebook</label><br />
+      <input
+        type="checkbox"
+        id="instagram"
+        name="rede social"
+        value="Instagram"
+      />
+      <label for="instagram">Instagram</label><br />
+      <input
+        type="checkbox"
+        id="whatsapp"
+        name="rede social"
+        value="WhatsApp"
+      />
+      <label for="whatsapp"> WhatsApp </label>
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
